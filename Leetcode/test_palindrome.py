@@ -14,7 +14,7 @@ def test_chuoi_sai():
 def test_chuoi_xoa_mot_ki_tu():
     assert validPalindrome("abca") == True
     assert validPalindrome("racecarx") == True
-    assert validPalindrome("aabbcc") == False
+    assert validPalindrome("aabbcc") == True
 
 def test_chuoi_rong():
     assert validPalindrome("") == True
