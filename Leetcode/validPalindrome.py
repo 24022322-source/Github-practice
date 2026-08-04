@@ -32,5 +32,5 @@ def validPalindrome(s):
     else:
         return True
     
-s = "abkkiba"
+s = "aabbcc"
 print(validPalindrome(s))
