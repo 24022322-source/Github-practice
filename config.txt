@@ -1,1 +1,1 @@
-AI_MODEL = "ChatGPT"
+AI_MODEL = "Claude-3"
