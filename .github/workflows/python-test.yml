@@ -19,4 +19,7 @@ jobs:
 
     - name: Chạy file Leetcode
       run: |
-        python Leetcode/validPalindrome.py
+        pip install pytest
+        cd Leetcode
+        pytest test_palindrome.py --timeout=1
+        
