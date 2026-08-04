@@ -19,7 +19,6 @@ jobs:
 
     - name: Chạy file Leetcode
       run: |
-        pip install pytest
+        pip install pytest pytest-timeout
         cd Leetcode
         pytest test_palindrome.py --timeout=1
-        
