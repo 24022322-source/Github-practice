@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 AI_MODEL = "Llama-3"
+=======
+AI_MODEL = "Claude-3"
+>>>>>>> dev-nguoi-B
