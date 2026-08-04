@@ -1,0 +1,22 @@
+name: Kiem Tra Python Code
+
+on: 
+  push:
+    branches: [ "main", "feature-test", "thu-nghiem-ci" ]
+
+jobs:
+  test-code-python:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Tải mã nguồn về máy ảo
+      uses: actions/checkout@v3
+
+    - name: Cài đặt Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Chạy file Leetcode
+      run: |
+        python Leetcode/validPalindrome.py
